@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Лучшие варианты жилья в Париже для трёх подруг — 11-15 июня 2026 — 3 бюджетных тира">
+<title>Париж для трёх подружек • 11-15.06.2026</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #faf7f2;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #c4453a;
+  --accent-soft: #f4dcd9;
+  --border: #e8e4dd;
+  --gold: #c8941a;
+  --green: #2d6a4f;
+  --blue: #2d4a6f;
+  --purple: #6b4a8f;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+.container { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+
+header {
+  padding: 50px 20px 30px;
+  text-align: center;
+  background: linear-gradient(180deg, #f4ebe1 0%, var(--bg) 100%);
+  border-bottom: 1px solid var(--border);
+}
+header .eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+header h1 {
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 700;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+}
+header .subhead {
+  font-size: 17px;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto 16px;
+}
+header .meta {
+  font-size: 15px;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 18px;
+}
+header .meta span::before {
+  content: "·";
+  margin-right: 18px;
+  color: var(--border);
+}
+header .meta span:first-child::before { content: ""; margin: 0; }
+
+.intro {
+  padding: 40px 0 20px;
+  font-size: 16px;
+  color: var(--muted);
+}
+.intro strong { color: var(--text); }
+
+.criteria {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+.criteria h3 {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.criteria ul {
+  list-style: none;
+  padding: 0;
+}
+.criteria li {
+  padding: 6px 0 6px 28px;
+  position: relative;
+  font-size: 15px;
+}
+.criteria li::before {
+  content: "✓";
+  position: absolute;
+  left: 4px;
+  color: var(--green);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.toc {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 30px 0;
+}
+.toc h3 {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+.toc-group {
+  margin-bottom: 14px;
+}
+.toc-group:last-child { margin-bottom: 0; }
+.toc-group .group-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 6px;
+  padding: 2px 0;
+}
+.toc-group ul {
+  list-style: none;
+  padding-left: 8px;
+}
+.toc-group li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+}
+.toc-group li:last-child { border-bottom: none; }
+.toc-group a {
+  color: var(--text);
+  text-decoration: none;
+}
+.toc-group a:hover { color: var(--accent); }
+.toc-group .price-tag {
+  float: right;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin: 50px 0 8px;
+  letter-spacing: -0.01em;
+}
+section .tier-intro {
+  color: var(--muted);
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 28px 24px;
+  margin: 24px 0;
+  scroll-margin-top: 20px;
+}
+.card.highlight {
+  border-color: var(--accent);
+  box-shadow: 0 4px 24px rgba(196, 69, 58, 0.08);
+}
+.card-flag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+.flag-budget { background: #e8f4ec; color: var(--green); }
+.flag-best { background: var(--accent-soft); color: var(--accent); }
+.flag-comfort { background: #e6edf5; color: var(--blue); }
+.flag-luxury { background: #fdf2d4; color: var(--gold); }
+.flag-bonus { background: #f0e8f4; color: var(--purple); }
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
+}
+.card .subtitle {
+  font-size: 15px;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+.card .price {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--accent);
+  display: inline-block;
+  margin-right: 10px;
+}
+.card .price-per { color: var(--muted); font-size: 15px; font-weight: 400; }
+.card .price-row { margin-bottom: 20px; }
+.card .price-strike {
+  color: var(--muted);
+  text-decoration: line-through;
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 18px 0;
+  border-top: 1px solid var(--border);
+}
+.details .row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+}
+.details .row .label {
+  color: var(--muted);
+  font-weight: 500;
+}
+.details .row .value { color: var(--text); }
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+.tag-good { background: #e8f4ec; color: var(--green); }
+.tag-warn { background: #fef3e0; color: #b85c00; }
+.tag-bad { background: #fde9e7; color: var(--accent); }
+.tag-walk { background: #fff5d6; color: #6b4a00; }
+
+.walk-section {
+  background: linear-gradient(135deg, #fef6ea 0%, #fdf2d4 100%);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 18px 0;
+  font-size: 14px;
+}
+.walk-section h4 {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b4a00;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.walk-section ul {
+  list-style: none;
+  padding: 0;
+}
+.walk-section li {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.walk-section li .dest { color: var(--text); }
+.walk-section li .time {
+  color: var(--accent);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+}
+.pros-cons .col {
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.pros-cons .pros { background: #f0f7f2; }
+.pros-cons .cons { background: #fdf4f3; }
+.pros-cons h4 {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.pros-cons .pros h4 { color: var(--green); }
+.pros-cons .cons h4 { color: var(--accent); }
+.pros-cons ul {
+  list-style: none;
+  padding: 0;
+}
+.pros-cons li {
+  padding: 4px 0 4px 18px;
+  position: relative;
+}
+.pros-cons .pros li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  font-weight: 700;
+}
+.pros-cons .cons li::before {
+  content: "−";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.for-whom {
+  background: #fafafa;
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  margin: 18px 0;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--muted);
+}
+.for-whom strong { color: var(--text); font-style: normal; }
+
+.cta-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 8px;
+  transition: background 0.2s, transform 0.1s;
+  width: 100%;
+  text-align: center;
+}
+.cta-btn:hover { background: #a03930; }
+.cta-btn:active { transform: scale(0.98); }
+
+.alert {
+  background: #fef3e0;
+  border-left: 3px solid #b85c00;
+  padding: 12px 16px;
+  margin: 16px 0;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #6b3a00;
+}
+.alert strong { color: #b85c00; }
+
+.tier-divider {
+  text-align: center;
+  margin: 60px 0 30px;
+  position: relative;
+}
+.tier-divider .tier-num {
+  display: inline-block;
+  background: var(--card);
+  color: var(--accent);
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  padding: 0 16px;
+  position: relative;
+  z-index: 2;
+}
+.tier-divider::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--border);
+  z-index: 1;
+}
+
+.attractions {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin: 30px 0;
+}
+.attractions h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.attractions .att-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 16px;
+}
+.attractions .att-item {
+  font-size: 14px;
+}
+.attractions .att-item strong { color: var(--text); display: block; margin-bottom: 2px; }
+.attractions .att-item span { color: var(--muted); font-size: 13px; }
+
+.compare-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+}
+table.compare {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 640px;
+}
+table.compare th,
+table.compare td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+table.compare th {
+  background: #f5f1ea;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+}
+table.compare tr:last-child td { border-bottom: none; }
+table.compare .name { font-weight: 600; }
+table.compare .pr { color: var(--accent); font-weight: 700; }
+
+.tips {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin: 30px 0;
+}
+.tips h3 { font-size: 18px; margin-bottom: 14px; }
+.tips ol { padding-left: 22px; }
+.tips li { margin: 10px 0; font-size: 15px; }
+
+.personal {
+  background: linear-gradient(135deg, #fdf6f0 0%, #f9e6e1 100%);
+  border-radius: 16px;
+  padding: 28px 28px;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+.personal .ribbon {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.personal h3 { font-size: 26px; margin-bottom: 12px; }
+.personal p {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  header { padding: 36px 20px 24px; }
+  .card { padding: 22px 20px; }
+  .details .row {
+    grid-template-columns: 110px 1fr;
+    font-size: 14px;
+  }
+  .pros-cons {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  section h2 { font-size: 22px; margin: 36px 0 16px; }
+  .card h3 { font-size: 20px; }
+  .card .price { font-size: 28px; }
+  .toc { padding: 16px 18px; }
+  .toc-group .price-tag { display: block; float: none; margin-top: 2px; }
+  .attractions .att-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Поездка в Париж · Три подружки</div>
+  <h1>Мама и подружки во Франции 🇫🇷</h1>
+  <p class="subhead">Самые крутые варианты жилья только в Париже — чтобы выходить из дома и гулять пешком к достопримечательностям</p>
+  <div class="meta">
+    <span>11–15 июня 2026</span>
+    <span>4 ночи</span>
+    <span>3 человека</span>
+    <span>3 бюджета на выбор</span>
+  </div>
+</header>
+
+<div class="container">
+
+<section class="intro">
+  <p>Привет, девчонки! 👋 Сделала <strong>полный аудит Booking и Airbnb</strong> — проверила сотни объявлений на конкретные даты. Этот гид отличается от предыдущих тем что: <strong>только Париж</strong> (никаких пригородов), фокус на <strong>пешую прогулку к достопримечательностям</strong> и <strong>классную атмосферу для туристов</strong>. Варианты разбиты на 3 бюджетных тира — выберите который удобнее и сразу по кнопке "Забронировать" попадёте на сайт с вашими датами.</p>
+</section>
+
+<div class="criteria">
+  <h3>Условия отбора</h3>
+  <ul>
+    <li><strong>Только Париж</strong> в городских границах (1-20 округа), никаких пригородов</li>
+    <li>Минимум <strong>3 спальных места</strong> на 3 подруг</li>
+    <li><strong>Реальные цены</strong> на даты 11-15 июня 2026 (Booking и Airbnb)</li>
+    <li>Прямая <strong>пешая или короткая метро</strong> до достопримечательностей</li>
+    <li>Безопасный район днём и вечером</li>
+  </ul>
+</div>
+
+<div class="toc">
+  <h3>Содержание · 8 вариантов в 3 тирах</h3>
+
+  <div class="toc-group">
+    <div class="group-title">💰 Тир 1: €400-600 (~17-26 тыс. ₴)</div>
+    <ul>
+      <li><a href="#beaunier">Hôtel Beaunier (14 окр Монпарнас) <span class="price-tag">€603</span></a></li>
+      <li><a href="#hotelf1">hotelF1 Porte de Châtillon (14 окр) <span class="price-tag">€577</span></a></li>
+    </ul>
+  </div>
+
+  <div class="toc-group">
+    <div class="group-title">🥈 Тир 2: €600-800 (~26-35 тыс. ₴)</div>
+    <ul>
+      <li><a href="#rose">⭐ Rose Квартира на вершине (18 окр) <span class="price-tag">€783</span></a></li>
+      <li><a href="#meininger">MEININGER Hotel (12 окр Vincennes) <span class="price-tag">€746</span></a></li>
+      <li><a href="#adagio">Aparthotel Adagio Paris XV (15 окр) <span class="price-tag">€716</span></a></li>
+    </ul>
+  </div>
+
+  <div class="toc-group">
+    <div class="group-title">🥇 Тир 3: €800-1000 (~35-44 тыс. ₴)</div>
+    <ul>
+      <li><a href="#stephanie">⭐⭐ Stephanie Passy (16 окр) <span class="price-tag">€807</span></a></li>
+      <li><a href="#avenir">Avenir Hotel Montmartre (9 окр) <span class="price-tag">€967</span></a></li>
+      <li><a href="#parisdom">Парижский дом Монмартр (18 окр) <span class="price-tag">€942</span></a></li>
+    </ul>
+  </div>
+
+  <div class="toc-group">
+    <div class="group-title">📋 Дополнительно</div>
+    <ul>
+      <li><a href="#compare">Сравнительная таблица всех 8 вариантов</a></li>
+      <li><a href="#attractions">Главные достопримечательности рядом</a></li>
+      <li><a href="#tips">Полезные советы туристам</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================== ТИР 1 ============================== -->
+
+<div class="tier-divider"><span class="tier-num">ТИР 1 · €400–600 · ЭКОНОМ</span></div>
+
+<section>
+  <h2>💰 Бюджетные варианты в Париже</h2>
+  <p class="tier-intro">⚠️ Важно: в Париже за €400-600 на 4 ночи на троих опций мало. Бывают либо хостельные койки (общие комнаты — для трёх подружек не подходит), либо очень простые отели в дальних округах. Вот два самых разумных варианта в этом диапазоне.</p>
+
+  <!-- Hôtel Beaunier -->
+  <article class="card" id="beaunier">
+    <span class="card-flag flag-budget">Лучшее в тире</span>
+    <h3>Hôtel Beaunier ★★</h3>
+    <div class="subtitle">14 округ Монпарнас • метро Porte d'Orléans (линия 4)</div>
+    <div class="price-row">
+      <span class="price">€603</span>
+      <span class="price-per">за 4 ночи / ≈ €151 в сутки / ≈ 27 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value">7.6 / 10 • 467 отзывов</span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">Трёхместный номер: 1 односпальная + 1 двуспальная <span class="tag tag-warn">2 кровати на 3 человек</span></span></div>
+      <div class="row"><span class="label">Локация</span><span class="value"><strong>14 округ Монпарнас</strong> — богемный район Хемингуэя и Пикассо</span></div>
+      <div class="row"><span class="label">Метро</span><span class="value">Линия 4 — прямая до Châtelet, Saint-Michel, Латинского квартала</span></div>
+      <div class="row"><span class="label">Безопасность</span><span class="value">14 окр — спокойный жилой район <span class="tag tag-good">безопасно</span></span></div>
+      <div class="row"><span class="label">Тип</span><span class="value">Маленький бутик-отель</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из отеля</h4>
+      <ul>
+        <li><span class="dest">Catacombes de Paris (катакомбы)</span><span class="time">15 мин</span></li>
+        <li><span class="dest">Cimetière du Montparnasse</span><span class="time">10 мин</span></li>
+        <li><span class="dest">Parc Montsouris (парк)</span><span class="time">15 мин</span></li>
+        <li><span class="dest">Jardin du Luxembourg (метро 4)</span><span class="time">20 мин метро</span></li>
+        <li><span class="dest">Notre-Dame (метро 4)</span><span class="time">20 мин метро</span></li>
+      </ul>
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li>В Париже, не пригород</li>
+          <li>Очень спокойный жилой район</li>
+          <li>Линия 4 — прямая до главного центра</li>
+          <li>Возле катакомб и парков</li>
+          <li>Цена для Парижа отличная</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>Только 2 кровати на 3 человек (двое на двуспалке)</li>
+          <li>Маленький отель (467 отзывов)</li>
+          <li>Базовый уровень комфорта</li>
+          <li>14 окр — далеко от Лувра пешком</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> бюджет в приоритете, и две подруги готовы спать на двуспальной кровати вместе. Район для атмосферы — старый Монпарнас, кафе Le Dôme, La Coupole — туда заходили Хемингуэй, Сартр.
+    </div>
+
+    <a href="https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Beaunier&checkin=2026-06-11&checkout=2026-06-15&group_adults=3&no_rooms=1&group_children=0&selected_currency=EUR" target="_blank" rel="noopener" class="cta-btn">Найти на Booking →</a>
+  </article>
+
+  <!-- hotelF1 -->
+  <article class="card" id="hotelf1">
+    <span class="card-flag flag-budget">Дёшево и сердито</span>
+    <h3>hotelF1 Paris Porte de Châtillon ★</h3>
+    <div class="subtitle">14 округ • метро Porte d'Orléans (линия 4)</div>
+    <div class="price-row">
+      <span class="price">€577</span>
+      <span class="price-per">за 4 ночи / ≈ €144 в сутки / ≈ 25 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value">7.7 / 10 • <strong>17 530 отзывов</strong> (огромная база)</span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">Номер "Side-Car": <strong>4 односпальные кровати</strong> <span class="tag tag-good">каждой своя</span></span></div>
+      <div class="row"><span class="label">Локация</span><span class="value">14 округ Париж — у Porte de Châtillon</span></div>
+      <div class="row"><span class="label">Метро</span><span class="value">Porte d'Orléans (линия 4) — прямая в центр Парижа</span></div>
+      <div class="row"><span class="label">Тип</span><span class="value">Очень экономный отель сети Accor (F1 — самая базовая категория)</span></div>
+      <div class="row"><span class="label">Удобства</span><span class="value">Спартанский набор: WiFi, иногда общий санузел (зависит от номера)</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из отеля</h4>
+      <ul>
+        <li><span class="dest">Parc Montsouris (большой парк)</span><span class="time">10 мин</span></li>
+        <li><span class="dest">До центра Парижа (метро 4)</span><span class="time">25 мин метро</span></li>
+        <li><span class="dest">Notre-Dame (метро)</span><span class="time">30 мин метро</span></li>
+      </ul>
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li><strong>4 односпальные кровати</strong> — у каждой своя точно</li>
+          <li>17 500+ отзывов — самый проверенный бюджет</li>
+          <li>В Париже (14 окр)</li>
+          <li>Линия метро 4 — прямая в центр</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>Очень спартанский уровень</li>
+          <li>В некоторых номерах ванная/туалет — общие</li>
+          <li>Далеко от центра пешком</li>
+          <li>"Атмосферы Парижа" — ноль</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> если деньги нужно сильно экономить, и важно чтобы у каждой была своя кровать. Это не для романтики — это для "переночевать после прогулок". Зато 4 отдельные кровати по самой низкой цене в Париже.
+    </div>
+
+    <a href="https://www.booking.com/searchresults.html?ss=hotelF1+Paris+Porte+de+Ch%C3%A2tillon&checkin=2026-06-11&checkout=2026-06-15&group_adults=3&no_rooms=1&group_children=0&selected_currency=EUR" target="_blank" rel="noopener" class="cta-btn">Найти на Booking →</a>
+  </article>
+</section>
+
+<!-- ============================== ТИР 2 ============================== -->
+
+<div class="tier-divider"><span class="tier-num">ТИР 2 · €600–800 · СВИТ-СПОТ</span></div>
+
+<section>
+  <h2>🥈 Лучшее соотношение цена/качество</h2>
+  <p class="tier-intro">Самый разумный диапазон в Париже — за эти деньги можно взять либо квартиру у местного хозяина, либо хороший сетевой отель. Все три варианта реально в Париже с прямым доступом к центру.</p>
+
+  <!-- ROSE -->
+  <article class="card highlight" id="rose">
+    <span class="card-flag flag-best">⭐ Топ выбор в тире</span>
+    <h3>Квартира на вершине — Rose (Airbnb)</h3>
+    <div class="subtitle">18 округ Париж • метро Porte de Clignancourt (линия 4) — 1 минута</div>
+    <div class="price-row">
+      <span class="price">€783</span>
+      <span class="price-per">за 4 ночи / ≈ €196 в сутки / ≈ 35 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value"><strong>4.9 / 5</strong> • 29 отзывов • <span class="tag tag-good">Superhost</span> • хозяйка 8 лет</span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">Спальня 1: 1 двуспальная • Спальня 2: 2 односпальные <span class="tag tag-good">3 настоящие, без дивана</span></span></div>
+      <div class="row"><span class="label">Размер</span><span class="value"><strong>80 м²</strong> в стиле Haussmann • балкон с видом на Сакре-Кёр</span></div>
+      <div class="row"><span class="label">Локация</span><span class="value"><strong>18 округ — северный Париж</strong>, район Порт-де-Клиньянкур</span></div>
+      <div class="row"><span class="label">Метро</span><span class="value">Линия 4 — 1 минута пешком, прямая до Châtelet, Saint-Michel, Латинского квартала</span></div>
+      <div class="row"><span class="label">Этаж</span><span class="value">5-й этаж <strong>БЕЗ лифта</strong> <span class="tag tag-warn">с чемоданами тяжело</span></span></div>
+      <div class="row"><span class="label">Удобства</span><span class="value">Полная кухня, ванна, стиральная машина, балкон, парковка</span></div>
+      <div class="row"><span class="label">Отмена</span><span class="value">Бесплатная отмена до 6 июня</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из квартиры</h4>
+      <ul>
+        <li><span class="dest">🌹 Сакре-Кёр и Монмартр</span><span class="time">20 мин</span></li>
+        <li><span class="dest">Place du Tertre (художники)</span><span class="time">22 мин</span></li>
+        <li><span class="dest">Marché aux Puces de Saint-Ouen (блошиный рынок)</span><span class="time">5 мин</span></li>
+        <li><span class="dest">До центра Парижа (Châtelet, метро 4)</span><span class="time">15 мин метро</span></li>
+        <li><span class="dest">Notre-Dame / Saint-Michel (метро 4)</span><span class="time">18 мин метро</span></li>
+      </ul>
+    </div>
+
+    <div class="alert">
+      ⚠️ <strong>"Редкая находка — обычно забронировано."</strong> Listing с Superhost 4.9 в Париже за €783 разбирают за часы.
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li><strong>Реально в Париже</strong> (18 окр)</li>
+          <li>Superhost 4.9 — высочайшая надёжность</li>
+          <li>80 м², 2 отдельные спальни — у каждой свой угол</li>
+          <li><strong>Балкон с видом на Сакре-Кёр</strong></li>
+          <li>Пешком до Сакре-Кёр и Монмартра</li>
+          <li>1 минута до метро линии 4</li>
+          <li>Полная кухня — можно завтракать дома</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>5 этаж БЕЗ лифта (чемоданы пешком)</li>
+          <li>Район Clignancourt оживлённый</li>
+          <li>Минимум недели аренды — но 4 ночи показывает доступно</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> ⭐ <strong>лучший выбор в тире</strong>. Настоящая парижская квартира с балконом на 80 м², пешком до Монмартра, минута до метро прямо в центр. Если три подруги в силах поднять чемоданы на 5 этаж — это идеал.
+    </div>
+
+    <a href="https://www.airbnb.com/rooms/26021007?adults=3&check_in=2026-06-11&check_out=2026-06-15" target="_blank" rel="noopener" class="cta-btn">Открыть на Airbnb →</a>
+  </article>
+
+  <!-- MEININGER -->
+  <article class="card" id="meininger">
+    <span class="card-flag flag-comfort">Надёжный отель</span>
+    <h3>MEININGER Hotel Paris Porte de Vincennes ★★★</h3>
+    <div class="subtitle">12 округ Париж • метро Porte de Vincennes (линия 1) у двери</div>
+    <div class="price-row">
+      <span class="price-strike">€826</span>
+      <span class="price">€746</span>
+      <span class="price-per">за 4 ночи / ≈ €186 в сутки / ≈ 33 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value">8.1 / 10 • <strong>6 974 отзыва</strong> (огромная база)</span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">Трёхместный номер: <strong>3 односпальные кровати</strong> <span class="tag tag-good">у каждой своя</span></span></div>
+      <div class="row"><span class="label">Локация</span><span class="value">12 округ Bercy Paris — у Bois de Vincennes (огромный парк)</span></div>
+      <div class="row"><span class="label">Метро</span><span class="value"><strong>Линия 1</strong> — самая туристическая ветка прямо до Лувра, Лувр→Тюильри→Concorde→Champs-Élysées</span></div>
+      <div class="row"><span class="label">Тип</span><span class="value">Сетевой отель Meininger — модный хостельный стиль, но приватный номер</span></div>
+      <div class="row"><span class="label">Удобства</span><span class="value">Кондиционер ✅, звукоизоляция, лифт, Wi-Fi, ванная в номере, общий лаундж</span></div>
+      <div class="row"><span class="label">Тарифы</span><span class="value">€746 без возврата • €824 с отменой до 10.06 • €979 с завтраком</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из отеля</h4>
+      <ul>
+        <li><span class="dest">Bois de Vincennes (огромный парк, замок)</span><span class="time">10 мин</span></li>
+        <li><span class="dest">Château de Vincennes</span><span class="time">15 мин</span></li>
+        <li><span class="dest">До Bastille (метро 1)</span><span class="time">10 мин метро</span></li>
+        <li><span class="dest">До Лувра / Tuileries (метро 1)</span><span class="time">25 мин метро</span></li>
+        <li><span class="dest">Champs-Élysées (метро 1)</span><span class="time">30 мин метро</span></li>
+      </ul>
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li><strong>В Париже</strong> (12 окр Bercy)</li>
+          <li>3 отдельные односпальные кровати гарантированно</li>
+          <li>Кондиционер ✅ (важно в июне)</li>
+          <li>6974 отзыва — самая надёжная база</li>
+          <li>Линия 1 — самый удобный метро для туристов</li>
+          <li>Bois de Vincennes под боком — побегать утром</li>
+          <li>Лифт, ресепшен 24/7</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>Хостельная эстетика (но приватный номер с ванной)</li>
+          <li>Не "парижский шарм" — модный сетевой отель</li>
+          <li>До главных мест — только метро</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> если хочется надёжность отеля (а не Airbnb) с кондиционером, лифтом и 24/7 ресепшеном. Каждой гарантирована своя кровать, линия 1 ведёт прямо в центр.
+    </div>
+
+    <a href="https://www.booking.com/hotel/fr/meininger-paris-porte-de-vincennes.html?checkin=2026-06-11&checkout=2026-06-15&group_adults=3&no_rooms=1&group_children=0&selected_currency=EUR" target="_blank" rel="noopener" class="cta-btn">Забронировать на Booking →</a>
+  </article>
+
+  <!-- ADAGIO -->
+  <article class="card" id="adagio">
+    <span class="card-flag flag-comfort">Апарт-отель</span>
+    <h3>Aparthotel Adagio Paris XV (Booking)</h3>
+    <div class="subtitle">15 округ Порт-де-Версаль • метро Convention (линия 12)</div>
+    <div class="price-row">
+      <span class="price">€716</span>
+      <span class="price-per">за 4 ночи / ≈ €179 в сутки / ≈ 32 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value">7.6 / 10 • 2 904 отзыва</span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">Апартаменты с 2 спальнями: 1 двуспальная + 1 диван-кровать <span class="tag tag-warn">диван-кровать для одной</span></span></div>
+      <div class="row"><span class="label">Размер</span><span class="value">35 м² • 2 спальни • кухня • ванная</span></div>
+      <div class="row"><span class="label">Локация</span><span class="value"><strong>15 округ — недалеко от Эйфелевой башни</strong></span></div>
+      <div class="row"><span class="label">Метро</span><span class="value">Линия 12 (Convention) — прямая до Saint-Germain-des-Prés, Concorde, Madeleine</span></div>
+      <div class="row"><span class="label">Тип</span><span class="value">Apart-отель — отельный сервис + собственная кухня</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из апартаментов</h4>
+      <ul>
+        <li><span class="dest">🗼 Эйфелева башня</span><span class="time">25-30 мин</span></li>
+        <li><span class="dest">Champ de Mars (парк у башни)</span><span class="time">25 мин</span></li>
+        <li><span class="dest">Parc André Citroën</span><span class="time">15 мин</span></li>
+        <li><span class="dest">До Saint-Germain (метро 12)</span><span class="time">15 мин метро</span></li>
+        <li><span class="dest">До Лувра (метро 12 + 1)</span><span class="time">20 мин метро</span></li>
+      </ul>
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li>В Париже (15 окр) — спокойный жилой район</li>
+          <li>Своя кухня + отельный сервис</li>
+          <li>2 спальни — есть приватность</li>
+          <li>Можно дойти до Эйфелевой башни пешком</li>
+          <li>Линия 12 — прямая к Saint-Germain</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>Третья спит на диван-кровати в гостиной</li>
+          <li>Рейтинг 7.6 (не топ)</li>
+          <li>15 окр не самый "парижский" — спальный район</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> хочется ощущения квартиры с отельным сервисом, и одна из подруг готова на диван-кровать. Главный плюс — пешком к Эйфелевой башне.
+    </div>
+
+    <a href="https://www.booking.com/searchresults.html?ss=Aparthotel+Adagio+Paris+XV&checkin=2026-06-11&checkout=2026-06-15&group_adults=3&no_rooms=1&group_children=0&selected_currency=EUR" target="_blank" rel="noopener" class="cta-btn">Найти на Booking →</a>
+  </article>
+</section>
+
+<!-- ============================== ТИР 3 ============================== -->
+
+<div class="tier-divider"><span class="tier-num">ТИР 3 · €800–1000 · ЛУЧШИЙ ОПЫТ</span></div>
+
+<section>
+  <h2>🥇 Лучшее в Париже за разумные деньги</h2>
+  <p class="tier-intro">В этом тире — самые крутые варианты для туристического отдыха. Лучшие рейтинги, ближе к достопримечательностям, возможность гулять пешком из квартиры/отеля.</p>
+
+  <!-- STEPHANIE -->
+  <article class="card highlight" id="stephanie">
+    <span class="card-flag flag-best">⭐⭐ Топ туристический выбор</span>
+    <h3>Тихое и светлое жилье — Stephanie (Airbnb)</h3>
+    <div class="subtitle">16 округ Passy • метро La Muette / Passy (линия 9) — 2 минуты</div>
+    <div class="price-row">
+      <span class="price">€807</span>
+      <span class="price-per">за 4 ночи / ≈ €202 в сутки / ≈ 36 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value"><strong>4.96 / 5</strong> • 27 отзывов • <span class="tag tag-good">Superhost</span> <span class="tag tag-good">Выбор гостей</span></span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">Спальня: 2 односпальные + гостиная: 1 настоящая кровать (НЕ диван)</span></div>
+      <div class="row"><span class="label">Размер</span><span class="value">35 м² • целая квартира • <strong>лифт</strong> ✅ • двор-балкон</span></div>
+      <div class="row"><span class="label">Локация</span><span class="value">⭐ <strong>16 округ Passy</strong> — один из самых элегантных и безопасных районов Парижа</span></div>
+      <div class="row"><span class="label">Метро</span><span class="value">Линия 9 — 2 минуты, прямая до Опера, Гран-Бульвары, Бастилия</span></div>
+      <div class="row"><span class="label">Удобства</span><span class="value">Кухня, кофе-машина, Wi-Fi, стиральная машина, лифт ✅, ванна</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из квартиры</h4>
+      <ul>
+        <li><span class="dest">🗼 <strong>Эйфелева башня через Трокадеро</strong></span><span class="time">20-25 мин</span></li>
+        <li><span class="dest">Trocadéro (лучший вид на Эйфелеву)</span><span class="time">15 мин</span></li>
+        <li><span class="dest">Musée Marmottan Monet (импрессионисты)</span><span class="time">10 мин</span></li>
+        <li><span class="dest">Bois de Boulogne (огромный парк)</span><span class="time">10 мин</span></li>
+        <li><span class="dest">Maison de Balzac</span><span class="time">5 мин</span></li>
+        <li><span class="dest">Passy Plaza (торговый центр)</span><span class="time">3 мин</span></li>
+        <li><span class="dest">До Лувра / Champs-Élysées (метро 9)</span><span class="time">15 мин метро</span></li>
+      </ul>
+    </div>
+
+    <div class="alert">
+      ⚠️ <strong>"Редкая находка — обычно забронировано."</strong> Действовать быстро.
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li>⭐ Самый безопасный район в шортлисте (16 окр Passy)</li>
+          <li>Самый высокий рейтинг (4.96) — Superhost</li>
+          <li><strong>Пешком к Эйфелевой башне через Трокадеро</strong></li>
+          <li>Своя кухня + лифт ✅</li>
+          <li>Линия 9 — прямая в центр</li>
+          <li>Bois de Boulogne (огромный парк) рядом</li>
+          <li>Музеи импрессионистов и Бальзака под боком</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>Не туристический "парижский шарм" — буржуазный, спокойный</li>
+          <li>До Маре / Латинского квартала — только метро</li>
+          <li>27 отзывов (хоть и 4.96)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> ⭐⭐ <strong>идеально для мамы 40 лет с подругами</strong>. Тихий шикарный район, лифт ✅, безопасно вечером, можно пешком к Эйфелевой башне через парк Трокадеро. Просыпаться, пить кофе на балконе, идти пешком к башне — вот это парижский опыт.
+    </div>
+
+    <a href="https://www.airbnb.com/rooms/1004940338902805875?adults=3&check_in=2026-06-11&check_out=2026-06-15" target="_blank" rel="noopener" class="cta-btn">Открыть на Airbnb →</a>
+  </article>
+
+  <!-- AVENIR -->
+  <article class="card" id="avenir">
+    <span class="card-flag flag-luxury">Отель у Сакре-Кёр</span>
+    <h3>Avenir Hotel Montmartre ★★</h3>
+    <div class="subtitle">9 округ Опера • метро Anvers (линия 2) у двери</div>
+    <div class="price-row">
+      <span class="price">€967</span>
+      <span class="price-per">за 4 ночи / ≈ €242 в сутки / ≈ 43 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value">8.2 / 10 • <strong>4 288 отзывов</strong> • <span class="tag tag-good">Расположение 9.3</span> ⭐</span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">Четырёхместный номер: 2 односпальные + 1 двуспальная <span class="tag tag-good">3 настоящих места</span></span></div>
+      <div class="row"><span class="label">Локация</span><span class="value"><strong>9 округ</strong> у подножия Монмартра, 39 Bd Rochechouart</span></div>
+      <div class="row"><span class="label">Метро</span><span class="value">Anvers (линия 2) у двери, плюс рядом Pigalle (2, 12), Barbès (2, 4)</span></div>
+      <div class="row"><span class="label">Тарифы</span><span class="value">€967 невозвратный • <strong>€1060 с бесплатной отменой до 9.06</strong></span></div>
+      <div class="row"><span class="label">⚠️</span><span class="value">Остался <strong>1 номер</strong> на даты</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из отеля</h4>
+      <ul>
+        <li><span class="dest">🌹 <strong>Сакре-Кёр (в гору)</strong></span><span class="time">10 мин</span></li>
+        <li><span class="dest">Place du Tertre (художники Монмартра)</span><span class="time">12 мин</span></li>
+        <li><span class="dest">Moulin Rouge</span><span class="time">12 мин</span></li>
+        <li><span class="dest">Galeries Lafayette (универмаг)</span><span class="time">15 мин</span></li>
+        <li><span class="dest">Opéra Garnier</span><span class="time">15 мин</span></li>
+        <li><span class="dest">Printemps Haussmann (универмаг)</span><span class="time">15 мин</span></li>
+        <li><span class="dest">Лувр (Châtelet, метро 7)</span><span class="time">10 мин метро</span></li>
+      </ul>
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li><strong>10 минут пешком до Сакре-Кёр</strong></li>
+          <li>4 288 отзывов — очень надёжный отель</li>
+          <li>Расположение 9.3 ⭐ — топ для туристов</li>
+          <li>Метро у двери + 4 линии рядом</li>
+          <li>Пешком до главных универмагов (шоппинг)</li>
+          <li>Тариф с бесплатной отменой за +€93</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>Pigalle (южнее) — не идти туда поздно вечером</li>
+          <li>Туристическая толпа днём</li>
+          <li>Остался 1 номер — нужно бронировать сейчас</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> хочется именно отель и максимум прогулок пешком к достопримечательностям. От двери: 10 мин до Сакре-Кёр, 15 мин до Galeries Lafayette и Opera, плюс метро прямо к Лувру за 10 минут.
+    </div>
+
+    <a href="https://www.booking.com/hotel/fr/avenir-montmartre.html?checkin=2026-06-11&checkout=2026-06-15&group_adults=3&no_rooms=1&group_children=0&selected_currency=EUR" target="_blank" rel="noopener" class="cta-btn">Забронировать на Booking →</a>
+  </article>
+
+  <!-- ПАРИЖСКИЙ ДОМ MONTMARTRE -->
+  <article class="card" id="parisdom">
+    <span class="card-flag flag-luxury">Квартира на Монмартре</span>
+    <h3>Парижский дом — 1 спальня Монмартр (Airbnb)</h3>
+    <div class="subtitle">18 округ Монмартр • метро рядом</div>
+    <div class="price-row">
+      <span class="price">€942</span>
+      <span class="price-per">за 4 ночи / ≈ €236 в сутки / ≈ 42 тыс. ₴</span>
+    </div>
+
+    <div class="details">
+      <div class="row"><span class="label">Рейтинг</span><span class="value">4.59 / 5 • 17 отзывов • профессиональный менеджмент</span></div>
+      <div class="row"><span class="label">Кровати</span><span class="value">1 спальня, 3 кровати <span class="tag tag-warn">уточнить конфигурацию у хозяина</span></span></div>
+      <div class="row"><span class="label">Локация</span><span class="value"><strong>18 округ Монмартр</strong> — самый туристический холм Парижа</span></div>
+      <div class="row"><span class="label">Тип</span><span class="value">Управляется бизнес-агентством — стабильное качество</span></div>
+      <div class="row"><span class="label">Удобства</span><span class="value">Wi-Fi, бесплатная отмена</span></div>
+    </div>
+
+    <div class="walk-section">
+      <h4>🚶 Пешком из квартиры</h4>
+      <ul>
+        <li><span class="dest">🌹 Сакре-Кёр</span><span class="time">10-15 мин</span></li>
+        <li><span class="dest">Place du Tertre</span><span class="time">10-15 мин</span></li>
+        <li><span class="dest">Moulin de la Galette</span><span class="time">10 мин</span></li>
+        <li><span class="dest">Café des Deux Moulins (из "Амели")</span><span class="time">10 мин</span></li>
+      </ul>
+    </div>
+
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Плюсы</h4>
+        <ul>
+          <li>Самый туристический район Парижа</li>
+          <li>Пешком ко всему Монмартру</li>
+          <li>Управляется агентством — стабильно</li>
+          <li>Бесплатная отмена</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Минусы</h4>
+        <ul>
+          <li>Рейтинг 4.59 — средний (не топ)</li>
+          <li>Цена выше чем Rose (с Superhost 4.9)</li>
+          <li>1 спальня + 3 кровати — возможно диван-кровать</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="for-whom">
+      <strong>Кому:</strong> хотят жить именно на Монмартре (атмосфера, художники, узкие улочки). Но я бы сравнила с Rose в том же районе — там Superhost и €783 (дешевле).
+    </div>
+
+    <a href="https://www.airbnb.com/s/Paris-18ème-arrondissement--Paris/homes?checkin=2026-06-11&checkout=2026-06-15&adults=3" target="_blank" rel="noopener" class="cta-btn">Найти на Airbnb →</a>
+  </article>
+</section>
+
+<!-- ============================== СРАВНЕНИЕ ============================== -->
+
+<section id="compare">
+  <h2>📊 Сравнение всех 8 вариантов</h2>
+  <div class="compare-wrap">
+    <table class="compare">
+      <thead>
+        <tr>
+          <th>Объект</th>
+          <th>Цена</th>
+          <th>Округ</th>
+          <th>Рейтинг</th>
+          <th>Пешком до достопримечательностей</th>
+          <th>Тип</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="name">hotelF1 Châtillon</td>
+          <td class="pr">€577</td>
+          <td>14 окр</td>
+          <td>7.7 (17530)</td>
+          <td>Парк рядом, метро 4 в центр</td>
+          <td>хостел-отель</td>
+        </tr>
+        <tr>
+          <td class="name">Hôtel Beaunier</td>
+          <td class="pr">€603</td>
+          <td>14 окр Монпарнас</td>
+          <td>7.6 (467)</td>
+          <td>Катакомбы, парки</td>
+          <td>бутик-отель</td>
+        </tr>
+        <tr>
+          <td class="name">Adagio Paris XV</td>
+          <td class="pr">€716</td>
+          <td>15 окр</td>
+          <td>7.6 (2904)</td>
+          <td>🗼 Эйфелева 25-30 мин</td>
+          <td>апарт-отель</td>
+        </tr>
+        <tr>
+          <td class="name">MEININGER</td>
+          <td class="pr">€746</td>
+          <td>12 окр Vincennes</td>
+          <td>8.1 (6974)</td>
+          <td>Bois de Vincennes 10 мин</td>
+          <td>хостел-отель</td>
+        </tr>
+        <tr style="background:#fef9f6">
+          <td class="name">⭐ Rose Монмартр</td>
+          <td class="pr">€783</td>
+          <td>18 окр</td>
+          <td>4.9 (29) Super</td>
+          <td>🌹 Сакре-Кёр 20 мин</td>
+          <td>квартира 80м²</td>
+        </tr>
+        <tr style="background:#fef9f6">
+          <td class="name">⭐⭐ Stephanie Passy</td>
+          <td class="pr">€807</td>
+          <td>16 окр Passy</td>
+          <td>4.96 (27) Super</td>
+          <td>🗼 Эйфелева 25 мин</td>
+          <td>квартира</td>
+        </tr>
+        <tr>
+          <td class="name">Парижский дом</td>
+          <td class="pr">€942</td>
+          <td>18 окр Монмартр</td>
+          <td>4.59 (17)</td>
+          <td>🌹 Сакре-Кёр 10-15 мин</td>
+          <td>квартира</td>
+        </tr>
+        <tr>
+          <td class="name">Avenir Hotel</td>
+          <td class="pr">€967</td>
+          <td>9 окр Anvers</td>
+          <td>8.2 (4288)</td>
+          <td>🌹 Сакре-Кёр 10 мин, шоппинг</td>
+          <td>отель</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================== ДОСТОПРИМ ============================== -->
+
+<section id="attractions">
+  <h2>🗼 Что посмотреть пешком из каждого варианта</h2>
+  <div class="attractions">
+    <h3>Топ-10 главных достопримечательностей Парижа</h3>
+    <div class="att-grid">
+      <div class="att-item"><strong>🗼 Эйфелева башня</strong><span>7 окр • ближе всего: Stephanie (25 мин), Adagio XV (30 мин)</span></div>
+      <div class="att-item"><strong>🌹 Сакре-Кёр / Монмартр</strong><span>18 окр • ближе всего: Avenir (10 мин), Парижский дом (10-15), Rose (20)</span></div>
+      <div class="att-item"><strong>🖼 Лувр</strong><span>1 окр • от всех вариантов 10-25 минут метро</span></div>
+      <div class="att-item"><strong>⛪ Notre-Dame</strong><span>4 окр • метро 4: Rose, Beaunier, hotelF1 (15-20 мин)</span></div>
+      <div class="att-item"><strong>🌳 Jardin du Luxembourg</strong><span>6 окр • Beaunier (20 мин метро), Stephanie (метро)</span></div>
+      <div class="att-item"><strong>🛍 Champs-Élysées</strong><span>8 окр • Avenir пешком 25 мин, MEININGER метро 30</span></div>
+      <div class="att-item"><strong>🛍 Galeries Lafayette</strong><span>9 окр • Avenir пешком 15 мин — самый близкий</span></div>
+      <div class="att-item"><strong>🏛 Opéra Garnier</strong><span>9 окр • Avenir пешком 15 мин</span></div>
+      <div class="att-item"><strong>🎨 Musée d'Orsay</strong><span>7 окр • от всех 15-25 мин метро</span></div>
+      <div class="att-item"><strong>🏛 Place des Vosges (Маре)</strong><span>4 окр • от всех 15-25 мин метро</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== TIPS ============================== -->
+
+<section id="tips">
+  <h2>💡 Полезные советы туристам</h2>
+  <div class="tips">
+    <ol>
+      <li><strong>Музейный пасс (Paris Museum Pass).</strong> €70 на 2 дня, €85 на 4 дня — даёт вход в 50+ музеев (Лувр, Орсе, Версаль, и т.д.). Окупается уже после 2 музеев.</li>
+      <li><strong>Транспортная карта Navigo Easy</strong> — €2 за карту + €17.35 за carnet (10 поездок). Или недельный Navigo Découverte (€31 + фото) — даёт безлимит на всё.</li>
+      <li><strong>Eiffel Tower онлайн заранее</strong> — без билета может быть очередь 2-3 часа. Бронируйте за неделю на toureiffel.paris.</li>
+      <li><strong>Лувр</strong> — закрыт по вторникам! Открыт до 21:45 по средам и пятницам — лучшее время идти (меньше людей).</li>
+      <li><strong>Прогулка по Сене</strong> — Bateaux Mouches или Bateaux Parisiens, ~€15-17 за час. Лучше на закате.</li>
+      <li><strong>Кафе и бистро</strong> — традиционный завтрак с круассаном €6-10, обед-меню (entrée+plat+dessert) €18-25, ужин €25-40. Деньги быстро уходят на еду.</li>
+      <li><strong>Туристический сбор</strong> — €2-5 с человека за ночь добавляется к цене жилья. На троих ~€30-60 за 4 ночи.</li>
+      <li><strong>Кондиционер в июне</strong> — может быть +27-30°C. У отелей точно есть. У Airbnb уточняйте у хозяина перед бронированием.</li>
+      <li><strong>Безопасность в метро вечером</strong> — линия 1 (Avenir, MEININGER), линия 4 (Rose, Beaunier), линия 9 (Stephanie) безопасны до 23:00. После 23:00 лучше такси.</li>
+      <li><strong>Free walking tour</strong> — есть бесплатные пешеходные туры по Монмартру и Маре (на чаевые). Strawberry Tours, Sandeman's — лучшие.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================== РЕКОМ ============================== -->
+
+<section>
+  <div class="personal">
+    <div class="ribbon">🎯 Моя личная рекомендация</div>
+    <h3>Stephanie Passy €807 (Тир 3) или Rose Монмартр €783 (Тир 2)</h3>
+    <p><strong>Stephanie Passy</strong> — если хочется максимально безопасный и шикарный район, чтобы возвращаться вечером пешком от Эйфелевой башни. Superhost 4.96, лифт есть, кофе-машина, балкон-двор.</p>
+    <p><strong>Rose 18 окр</strong> — если хочется атмосферный Монмартр и сэкономить €30. 80 м² квартира с балконом на Сакре-Кёр, две спальни, до Сакре-Кёр пешком 20 минут. Но 5 этаж без лифта.</p>
+    <a href="https://www.airbnb.com/rooms/1004940338902805875?adults=3&check_in=2026-06-11&check_out=2026-06-15" target="_blank" rel="noopener" class="cta-btn" style="max-width:340px;margin-bottom:10px">Открыть Stephanie на Airbnb →</a>
+    <br>
+    <a href="https://www.airbnb.com/rooms/26021007?adults=3&check_in=2026-06-11&check_out=2026-06-15" target="_blank" rel="noopener" class="cta-btn" style="max-width:340px;background:transparent;color:var(--accent);border:1.5px solid var(--accent)">Открыть Rose на Airbnb →</a>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  Подобрала с любовью для мамы и подружек ❤️<br>
+  Цены актуальны на момент составления (15 мая 2026). Все ссылки ведут на проверенные страницы Booking и Airbnb с предзаполненными датами 11-15 июня 2026.<br>
+  Хорошей поездки! 🥐🗼🍷
+</footer>
+
+</body>
+</html>
